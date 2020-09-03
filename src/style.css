@@ -1,0 +1,26 @@
+html {
+  background-color: #bbcbcb;
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  position: relative
+}
+
+body, #app {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  background-color: var(--bg);
+  font-family: 'Space Mono', monospace;
+  color: var(--title);
+  transition: all 0.25s;
+}

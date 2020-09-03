@@ -1,0 +1,30 @@
+.search {
+  display: flex;
+  margin: 1em 0;
+}
+
+.search__bar {
+  background-color: var(--search-bg);
+  border: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  font: inherit;
+  width: 100%;
+  transition: all 0.25s;
+  color: var(--title);
+}
+
+.search__btn {
+  display: none;
+}
+
+.search_caret {
+  color: var(--title);
+  position: absolute;
+  transition: all 0.25s;
+  line-height: 26px;
+}
+
+.search:focus-within .search__bar::placeholder {
+  opacity: 0;
+}

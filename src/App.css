@@ -1,0 +1,26 @@
+.content {
+  margin: 30px 50px;
+  width: 100%;
+}
+
+.content__title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.content__img {
+  max-width: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 980px) {
+  .content__img {
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 833px) {
+  .content__img {
+    display: none;
+  }
+}

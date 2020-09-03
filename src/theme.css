@@ -1,0 +1,21 @@
+:root {
+  --subtitle: #FCB69F;
+  --white: #FFFFFF;
+  --title: #FFECD2;
+
+  --bg: #282828;
+  --fg: #3f3f3f;
+
+  --search-bg: rgba(255, 255, 255, 0);
+  }
+
+.lightmode {
+  --subtitle: #5f605b;
+  --white: #7f807b;
+  --title: #494846;
+
+  --bg: #f0f0f0;
+  --fg: #e7e7e7;
+
+  --search-bg: rgba(255, 255, 255, 0);
+}

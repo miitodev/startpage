@@ -1,0 +1,19 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 0.52em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--title);
+  cursor: pointer;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
