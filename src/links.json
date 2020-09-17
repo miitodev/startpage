@@ -4,6 +4,10 @@
       "name": "Frequent",
       "link": [
         {
+          "name": "Google Search",
+          "url": "https://google.ca"
+        },
+        {
           "name": "Google Drive",
           "url": "https://drive.google.com/drive/u/0/my-drive"
         },
